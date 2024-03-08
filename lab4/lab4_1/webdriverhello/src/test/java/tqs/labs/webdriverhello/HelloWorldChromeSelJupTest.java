@@ -10,7 +10,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 
 @ExtendWith(SeleniumJupiter.class)
-class HelloWorldFirefoxSelJupTest {
+class HelloWorldChromeSelJupTest {
 
     @Test
     void test(ChromeDriver driver) {
