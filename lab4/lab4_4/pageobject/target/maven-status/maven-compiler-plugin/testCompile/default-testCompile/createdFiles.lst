@@ -1,0 +1,5 @@
+tqs\labs\pageobject\PageObjects\PurchasePage.class
+tqs\labs\pageobject\PageObjects\ConfirmationPage.class
+tqs\labs\pageobject\PageObjects\HomePage.class
+tqs\labs\pageobject\PageObjects\ReservePage.class
+tqs\labs\pageobject\BlazeDemoPOTest.class
