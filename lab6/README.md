@@ -39,4 +39,19 @@ Technical debt is the amount of time required to solve a certain issue. Since I 
 
 The values are good , most of the classes with low coverage are due to them only being used by Springboot and not tested directly on tests. Ex:
 
-![alt text](example.png)
+![](example.png)
+
+# Lab 6 3
+
+For this exercise I used the ies project.
+
+## a)
+
+![](image.png)
+
+Running sonarqube on the project i get this overall evaluation.
+
+![alt text](image-1.png)
+
+The new quality gate I made is very similar to the default one but I took out the code coverage since this project didn't have any tests. I felt this was the only change required to the quality gate in order to still obey clean code guidelines.
+
