@@ -1,6 +1,6 @@
 #!groovy
 
-node('master'){
+node{
   stage('Test'){
     echo "Hello Pipeline"
   }
