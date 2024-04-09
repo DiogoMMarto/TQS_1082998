@@ -1,0 +1,56 @@
+INSERT INTO connection (available_seats, bus_name, date, duration, end_city, number_of_seats, price, starting_city,seat_map)
+VALUES
+    (50, 'Bus A', '2024-04-10', '08:00:00', 'New York', 50, 50.00, 'Los Angeles', '{true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true}'),
+    (50, 'Bus A', '2024-04-10', '08:00:00', 'Los Angeles', 50, 50.00, 'New York', '{true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true}'),
+    (40, 'Bus B', '2024-04-11', '10:00:00', 'Los Angeles', 40, 60.00, 'San Francisco','{true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true}'),
+    (30, 'Bus C', '2024-04-12', '12:00:00', 'San Francisco', 30, 70.00, 'Chicago','{true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true}'),
+    (20, 'Bus D', '2024-04-13', '14:00:00', 'Chicago', 20, 80.00, 'Miami','{true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true}'),
+    (20, 'Bus E', '2024-04-14', '16:00:00', 'Miami', 20, 90.00, 'Seattle','{true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true}'),
+    (50, 'Bus F', '2024-04-15', '09:00:00', 'Seattle', 50, 55.00, 'Boston','{true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true}'),
+    (40, 'Bus G', '2024-04-16', '11:00:00', 'Boston', 40, 65.00, 'San Diego','{true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true}'),
+    (30, 'Bus H', '2024-04-17', '13:00:00', 'San Diego', 30, 75.00, 'Denver','{true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true}'),
+    (20, 'Bus I', '2024-04-18', '15:00:00', 'Denver', 20, 85.00, 'Houston','{true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true}'),
+    (20, 'Bus J', '2024-04-19', '17:00:00', 'Houston', 20, 95.00, 'Dallas','{true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true}'),
+    (40, 'Bus K', '2024-04-20', '19:00:00', 'Dallas', 40, 105.00, 'Atlanta','{true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true}'),
+    (60, 'Bus L', '2024-04-21', '21:00:00', 'Atlanta', 60, 115.00, 'New Orleans','{true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true}'),
+    (30, 'Bus M', '2024-04-22', '08:00:00', 'New Orleans', 30, 125.00, 'Orlando','{true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true}'),
+    (20, 'Bus N', '2024-04-23', '10:00:00', 'Orlando', 20, 135.00, 'Las Vegas','{true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true}'),
+    (30, 'Bus O', '2024-04-24', '12:00:00', 'Las Vegas', 30, 145.00, 'Phoenix','{true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true}'),
+    (30, 'Bus P', '2024-04-25', '14:00:00', 'Phoenix', 30, 155.00, 'San Antonio','{true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true}'),
+    (40, 'Bus Q', '2024-04-26', '16:00:00', 'San Antonio', 40, 165.00, 'Portland','{true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true}'),
+    (50, 'Bus R', '2024-04-27', '18:00:00', 'Portland', 50, 175.00, 'Salt Lake City','{true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true}'),
+    (60, 'Bus S', '2024-04-28', '20:00:00', 'Salt Lake City', 60, 185.00, 'Minneapolis','{true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true}'),
+    (30, 'Bus T', '2024-04-29', '22:00:00', 'Minneapolis', 30, 195.00, 'Detroit','{true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true}')
+;
+
+INSERT INTO person (name)
+VALUES
+    (''),
+    ('Alice'),
+    ('Bob'),
+    ('Charlie'),
+    ('David'),
+    ('Eve'),
+    ('Frank'),
+    ('Grace'),
+    ('Hank'),
+    ('Ivy'),
+    ('Jack'),
+    ('Kathy'),
+    ('Liam'),
+    ('Mia'),
+    ('Nina'),
+    ('Oscar'),
+    ('Pam'),
+    ('Quinn'),
+    ('Riley'),
+    ('Sara'),
+    ('Tom'),
+    ('Uma'),
+    ('Vince'),
+    ('Wendy'),
+    ('Xander'),
+    ('Yara'),
+    ('Zane')
+;
+
